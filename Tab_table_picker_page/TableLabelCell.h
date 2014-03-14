@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TableLabelCell.h
 //  Tab_table_picker_page
 //
 //  Created by Sofia Garcia Ramos on 3/11/14.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface TableLabelCell : UITableViewCell
+@property (strong, nonatomic) IBOutlet UILabel *Lb_name;
 
 @end

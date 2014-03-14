@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FirstViewController.h
 //  Tab_table_picker_page
 //
 //  Created by Sofia Garcia Ramos on 3/11/14.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+NSArray     *astr__Names;
+
+@interface Table_ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
 @end
